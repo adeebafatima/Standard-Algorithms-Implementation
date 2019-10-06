@@ -31,7 +31,7 @@ class LongestIncreasingSubsequence{
 		System.out.println("Enter the elements of array");
 		for(int i=0;i<N;i++)
 			arr[i]=scan.nextInt();
-		int result=LongestIncreasingSubsequence.lnds(arr,N);
+		int result=LongestIncreasingSubsequence.lis(arr,N);
 		System.out.println("Size of LIS: "+result);
 	}
 }
