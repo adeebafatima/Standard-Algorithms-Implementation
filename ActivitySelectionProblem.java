@@ -19,8 +19,10 @@ class ActivitySelectionProblem{
         	});
 
     		System.out.print("Following activities are selected: "); 
+
     		int i=0;
     		System.out.print("("+A[i].startTime+","+A[i].finishTime+")");
+
     		for(int j=1;j<A.length;j++){
     			if(A[j].startTime>=A[i].finishTime){
     				System.out.print(", ("+A[j].startTime+","+A[j].finishTime+") ");

@@ -29,8 +29,8 @@ class FractionalKnapsack{
             		}
         	});
 		double maxProfit=0;
-		int i=0;
-		for(i=0;i<items.length;i++){
+	
+		for(int i=0;i<items.length;i++){
 			if(capacity>0 && items[i].weight<= capacity){
 				capacity=capacity-items[i].weight;
 				maxProfit=maxProfit+items[i].profit;

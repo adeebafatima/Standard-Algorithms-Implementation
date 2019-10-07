@@ -5,9 +5,8 @@ class AssignMicetoHoles{
 
 	static int calcMinAssignTime(ArrayList<Integer> mice,ArrayList<Integer> holes){
 
-		if(mice.size()!=holes.size()){
+		if(mice.size()!=holes.size())
 			return -1;
-		}
 
 		Collections.sort(mice);
 		Collections.sort(holes);
