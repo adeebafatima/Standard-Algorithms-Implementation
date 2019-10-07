@@ -23,11 +23,11 @@ class FractionalKnapsack{
 		}
 		
 		Arrays.sort(items, new Comparator<Item>(){
-            @Override
-            public int compare (Item i1, Item i2) {
-                return i1.profit_per_unit > i2.profit_per_unit ? -1 : 1;
-            }
-        });
+            	@Override
+            		public int compare (Item i1, Item i2) {
+                	return i1.profit_per_unit > i2.profit_per_unit ? -1 : 1;
+            		}
+        	});
 		double maxProfit=0;
 		int i=0;
 		for(i=0;i<items.length;i++){
